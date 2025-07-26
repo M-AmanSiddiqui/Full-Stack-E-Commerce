@@ -5,7 +5,7 @@ import { TbBrandMeta } from 'react-icons/tb'
 import { Link } from 'react-router-dom';
  function Topbar() {
   return (
-    <div className="bg-[#ea2e0e] text-white">
+    <div className="bg-(--rabitRed) text-white">
       <div className="container mx-auto flex justify-between items-center py-3 px-4">
       <div className='hidden md:flex items-center space-x-4'>
         <Link to="#" className="hover:text-gray-300">
@@ -24,7 +24,7 @@ import { Link } from 'react-router-dom';
         <span>We ship worldwide - Fast and reliable shipping!</span>
      </div>
      <div className='text-sm hidden md:block'>
-        <Link to="+923322430504" className='hover:text-gray-300'>+92332243050</Link>
+        <Link to="+923322430504" className='hover:text-gray-300'>+923322430504</Link>
      </div>
      </div>
     </div>
