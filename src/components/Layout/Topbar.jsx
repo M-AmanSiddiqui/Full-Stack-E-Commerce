@@ -24,7 +24,7 @@ import { Link } from 'react-router-dom';
         <span>We ship worldwide - Fast and reliable shipping!</span>
      </div>
      <div className='text-sm hidden md:block'>
-        <Link to="+923322430504" className='hover:text-gray-300'>+923322430504</Link>
+        <Link to="+923322430504" className='hover:text-gray-300'>+92332243050</Link>
      </div>
      </div>
     </div>
