@@ -37,7 +37,7 @@ const toggleCartDrawer = () => {
     <span className='absolute -top-1  bg-(--rabitRed) text-white text-sm rounded-full px-2 py-0.5'>4</span>
     </button>
     {/* Search */}
-    <div className='overflow-hidden'><SearchBar /></div>
+    <div className='overflow-hidden'><Searchbar /></div>
     
     <button className='md:hidden'><HiBars3BottomRight className="h-6 w-6 text-gray-700" /></button>
 </div>
