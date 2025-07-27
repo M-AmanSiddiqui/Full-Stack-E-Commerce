@@ -3,6 +3,7 @@ import { HiOutlineUser,HiOutlineShoppingBag } from 'react-icons/hi';
 import { HiBars3BottomRight } from 'react-icons/hi2';
 import { Link } from 'react-router-dom'
 import SearchBar from './Searchbar';
+import CartDrawer from '../Layout/CartDrawer';
 function Navbar() {
   return (
 <>
