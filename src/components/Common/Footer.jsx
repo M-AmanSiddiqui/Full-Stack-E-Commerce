@@ -116,10 +116,17 @@ import { FiPhoneCall } from 'react-icons/fi';
     </Link>
    </div>
 <p className='text-gray-500'>Call Us</p>
-<p><FiPhoneCall /></p>
+<p><FiPhoneCall  className='inline-block mr-2'/>0123-456-789</p>
+</div>
 </div>
 
-  </div>
+{/* Footer Bottom */}
+<div className="container mx-auto mt-12 px-4 lg:px-0 border-t border-gray-200 pt-6">
+  <p className="text-gray-500 text-sm tracking-tighter text-center">
+    © 2025, CompileTab. All Rights Reserved.
+  </p>
+</div>
+
 </footer>
 
   )
